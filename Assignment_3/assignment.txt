@@ -1,0 +1,46 @@
+Assignment 3
+	
+01- Practice with Functions (5 points)
+
+1.	Write a function called halfNumber() that accepts one argument (a number), divide it by 2, and return the COMM644result. It should log a string like "Half of 5 is 2.5.".
+2.	Write a function called squareNumber() that accepts one argument (a number), square that number, and return the result. It should also log a string like "The result of squaring the number 3 is 9."
+3.	Write a function called percentOf() that accepts two numbers, figure out what percent the first number represents of the second number, and return the result. It should log a string like "2 is 50% of 4."
+4.	Write a function called findModulus() that accepts two numbers. Within the function write a statement that returns the modulus of the first and second parameters. It should log a string like "2 is the modulus of 4 and 10."
+5.	Create a JavaScript function that accepts a certain amount of numbers as parameters. Those numbers should be collected using a prompt and the numbers should be delimited by commas. Once the values are collected, find the sum of all of the numbers combined. You will need to use a function, loop, arguments object, and several type conversion global functions to accomplish this task.
+
+02-The Fortune Teller (5 points)
+
+Why pay a fortune teller when you can just program your fortune yourself? Write a function named tellFortune() that:
+•	Takes 4 arguments: number of children, partner's name, geographic location, job title.
+•	Outputs your fortune to the screen like so: "You will be a X in Y, and married to Z with N kids."
+•	Call that function 3 times with 3 different values for the arguments.
+
+03- The Rock, Paper, Scissors Game (20 points)
+
+Rock, paper, scissors is a classic 2 player game. Each player chooses rock, paper or scissors. The possible outcomes include:
+•	Rock destroys scissors.
+•	Scissors cut paper.
+•	Paper covers rock.
+Our code will break the game into 3 phases:
+1.	User makes a choice. How will we collect the user’s choice?
+2.	Computer makes a choice. How will we collect the computer’s choice?
+3.	A conditional that determines who wins.
+In this lab you will be responsible for figuring out some of the logic. These next steps will attempt to guide you down the right path: 
+1.	Begin by prompting the user for their choice.
+2.	Create the computer’s choice. This will be generated similarly to the coin flip that you did last week. Remember though, rather than 2 options, there will be 3 here.
+3.	Depending on what the numeric value of the computer’s choice is, reset it to a string value of rock, paper, or scissors instead.
+4.	Create a conditional that checks the user’s choice in relation to the computer’s choice. Once a winner is defined, display a message within an alert box indicating who the winner is.
+5.	What if the result ends in a tie? Figure out how to handle that as well.
+6.	What if the user enters something other than rock, paper, or scissors into the prompt? Figure out how to handle that as well.
+
+04- The Basic Calculator (20 points)
+
+In this part of the assignment you will build a simple calculator. You will ask the user for a number, a second number, and then finally ask them what kind of operation they want to perform, either add, subtract, multiply, or divide. Depending on what they select, you will perform that operation. To complete this lab follow the steps outlined here:
+1.	Prompt the user for a number and store that in a variable.
+2.	Prompt the user for a second number and store that in a variable.
+3.	Prompt the user for the operation they would like to perform (add, subtract, multiply, divide) and store that in a variable.
+4.	Create a new named function called calculate() that accepts 3 parameters.
+5.	Call the calculate function and pass in the 3 variables as parameters. 
+HINT: You will need to convert the 2 numbers from strings to numbers. 
+6.	Within the calculate() function use a switch statement to evaluate the operation parameter being passed in. Depending on what it is, perform that operation, and display the result within an alert box.
+7.	Figure out how to make it so that if the user doesn’t enter either add, subtract, multiply, or divide, they are displayed an alert message telling them that. Then you’ll have to rerun the application so that the application asks the user for the numbers and operation once more.
